@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TvG_Bootstrap>
+            <version>1.0.0</version>
+        </TvG_Bootstrap>
+    </modules>
+    <global>
+        <helpers>
+            <bootstrap>
+                <class>TvG_Bootstrap_Helper</class>
+            </bootstrap>
+        </helpers>
+        <blocks>
+            <bootstrap>
+                <class>TvG_Bootstrap_Block</class>
+            </bootstrap>
+            <page>
+                <rewrite>
+                    <html_topmenu>TvG_Bootstrap_Block_Page_Html_Topmenu</html_topmenu>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+</config>
