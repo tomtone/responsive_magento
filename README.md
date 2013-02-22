@@ -15,12 +15,12 @@ To easily get started:
     DocumentRoot "path/to/root/folder"
   	ServerName magento.local
     ServerAlias www.magento.local
-  	<Directory "path/to/root/folder">
+  	\<Directory "path/to/root/folder">
   		Options Indexes FollowSymLinks Includes ExecCGI
   		AllowOverride All
   		Order allow,deny
   		Allow from all
-  	</Directory>
+  	\</Directory>
   	ErrorLog logs/responsive_magento.log
   	LogLevel debug
   \</VirtualHost>
