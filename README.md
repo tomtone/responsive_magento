@@ -11,7 +11,7 @@ To easily get started:
 2. link your apache or what ever
   for example in via vHost
   <pre>
-  <VirtualHost *:80>
+  \<VirtualHost *:80>
     DocumentRoot "path/to/root/folder"
   	ServerName magento.local
     ServerAlias www.magento.local
@@ -23,7 +23,7 @@ To easily get started:
   	</Directory>
   	ErrorLog logs/responsive_magento.log
   	LogLevel debug
-  </VirtualHost>
+  \</VirtualHost>
 </pre>
 3. run install for magento
 4. change design in backend and enter bootstrap as current theme
