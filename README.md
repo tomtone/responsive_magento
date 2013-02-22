@@ -1,8 +1,8 @@
 Responsive Magento Theme
 ==================
 --
-Magento theme based on Twitter Bootstrap including some extrafunctionality.
+Magento theme based on Twitter Bootstrap including some extra functionality.
 
-In case to keep file as minimal as possible github .gitignore for magento is included. Only the theme and theme modules will be cloned.
+In case to keep file as minimal as possible github .gitignore for magento is included.
 
-
+Only the theme and theme modules will be cloned.
